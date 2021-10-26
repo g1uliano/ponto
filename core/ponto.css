@@ -1,0 +1,47 @@
+html {
+height: 100%;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+body
+{
+font:76% Verdana,Tahoma,sans-serif;
+color:#000;
+}
+input {
+    border: 1px solid;
+    font:30px Verdana,Tahoma,sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.center span {
+	font-size:20px;
+        text-shadow: 0.1em 0.1em 0.05em #fff;
+}
+
+div.center {
+margin-top:10%;
+text-align: center;
+}
+div.center div, div.center p, div.center table, div.center form {
+text-align: left; margin-left: auto; margin-right: auto;
+}
+div.center input[type=text], div.center input[type=password] {
+	width:200px;
+	height:25px;
+	font-size:20px;
+}
+
+input.checkbox { border: none }
+textarea { border: 1px solid; }
+select { border: 1px solid; }
+input:focus { border: 1px dotted; }
+input.error { border: 1px dotted;}
+a:link {color: #000;}
+a:visited {color: #000;}
+a:active {color: #000;}
+#another {
+    display:none;
+}
